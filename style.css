@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    color: hsl(192, 100%, 9%);
+}
+.wrapper {
+    width: 59%;
+    margin: 0 auto;
+    border: 1px solid hsl(208, 11%, 55%);
+    
+}
+header {
+    height: 450px;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(/images/bg-hero-desktop.svg);
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.header-nav a {
+    padding: 11px;
+    width: 17%;
+    border-radius: 50px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+}
+.header-body {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-text {
+    width: 25vw;
+    padding: 0px;
+}
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 19vw;
+    color: hsl(192, 100%, 9%);
+}
+.header-text p {
+    margin-bottom: 20px;
+
+}
+.header-text button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 11px;
+    width: 47%;
+    border-radius: 50px;
+    border: 1px solid hsl(322, 100%, 66%);
+}
+.header-img {
+    width: 500px;
+}
+
+/* Main styling  starts here*/
+main {
+    padding: 70px;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid hsl(208, 11%, 55%);
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+section img {
+    width: 290px;
+    margin: 10px;
+}
+.section1-img {
+    width: 250px;
+}
+h2 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content {
+    width: 50%;
+}
+.get-started {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150%;
+    margin-left: 11em;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+}
+.get-started a{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 11px;
+    width: 47%;
+    border-radius: 50px;
+    border: 1px solid hsl(322, 100%, 66%);
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    padding: 25px;
+}
+footer a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+    padding: 6px;
+}
+.footer-left {
+    width: 30%;
+    color: hsl(193, 100%, 96%);
+}
+.footer-left .logo h1 {
+    color: hsl(193, 100%, 96%);
+    font-size: 38px;
+    font-family: open sans;
+}
+.footer-left .logo {
+    display: flex;
+}
+.location, .phone {
+    margin-bottom: 15px;
+    
+}
+.footer-middle {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-middle ul {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    margin-top: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query Starts Here*/
+
+@media (max-width: 1440px) {
+    .header-img {
+        width: 450px;
+    }
+    .header-text {
+        width: 25vw;
+    }
+    h1 {
+        width: 22vw;
+}
+}
+@media (max-width: 375px) {
+    .wrapper {
+        width: 100%;
+        height: 100vh;
+        border: 1px solid hsl(208, 11%, 55%);
+    }
+    header {
+        height: 590px;
+    }
+    .header-nav a {
+        padding: 5px;
+        width: 37%;
+    }
+    .header-nav img {
+        width: 150px;
+    }
+    .header-body {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .header-text button {
+        padding: 12px;
+        width: 75%;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+        border: 1px solid black;
+        width: 85%;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    .header-text p {
+        font-size: 18px;
+        border: 1px solid black;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header-img {
+        width: 335px;
+    }
+
+}
