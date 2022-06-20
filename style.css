@@ -55,16 +55,27 @@ h1 {
 .header-text button {
   background-color: hsl(322, 100%, 66%);
   color: white;
-  padding: 11px;
-  width: 47%;
+  padding: 8px;
+  width: 45%;
   border-radius: 50px;
   border: 1px solid hsl(322, 100%, 66%);
+  transform: scale(1);
 }
 .header-text button:hover {
   background-color: hsl(322, 79%, 72%);
+  transform: scale(1.5);
+  transition: .80s;
 }
 .header-img {
   width: 500px;
+}
+.links{
+  transform: scale(1);
+}
+.links:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: .80s;
 }
 
 /* Main styling  starts here*/
