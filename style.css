@@ -32,6 +32,10 @@ header {
   text-align: center;
   color: hsl(192, 100%, 9%);
 }
+.header-nav a:hover {
+  transform: scale(1.1);
+  transition: .80s;
+}
 .header-body {
   margin-top: 23px;
   display: flex;
@@ -322,7 +326,7 @@ footer a {
     border: 5px solid hsl(208, 11%, 55%);
   }
   header {
-    height: 83vh;
+    height: 70vh;
   }
   .header-nav a {
     padding: 5px;
