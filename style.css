@@ -8,7 +8,6 @@ body {
   color: hsl(192, 100%, 9%);
 }
 .wrapper {
-  border: 1px solid hsl(208, 11%, 55%);
   overflow-y: scroll;
 }
 header {
@@ -82,7 +81,6 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid hsl(208, 11%, 55%);
   padding: 20px;
   width: 70%;
   border-radius: 20px;
@@ -111,7 +109,6 @@ h2 {
   width: 50%;
 }
 .get-started {
-  border: 1px solid hsl(208, 11%, 55%);
   border-radius: 20px;
   width: 27%;
   display: flex;
@@ -141,7 +138,6 @@ h2 {
   padding: 5px 21px;
   margin-top: 15px;
   border-radius: 50px;
-  border: 1px solid hsl(322, 100%, 66%);
 }
 .get-started a:hover {
   background-color: hsl(322, 79%, 72%);
